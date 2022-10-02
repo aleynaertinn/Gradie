@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(./image/Background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.anaekran {
+    width: 712px;
+    height: 472px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -338px;
+    margin-top: -235px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 12%), 0 4px 4px rgb(0 0 0 / 12%), 0 8px 8px rgb(0 0 0 / 12%), 0 16px 16px rgb(0 0 0 / 12%);
+}
+
+.sol {
+    background-color: #04283D;
+    height: 472px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.yazi {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.resim {
+    margin-top: -99px;
+}
+
+.sag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100%;
+    padding: 30px;
+}
+
+.loginbutton {
+    width: 100%;
+    height: 50px;
+    background-color: #04283D;
+    border-block-color: unset;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.loginbutton:hover {
+    color: #04283D !important;
+    font-weight: 600;
+    background-color: #fff !important;
+    border-color: #04283D !important;
+    transform: scale(1.1, 1.1)!important;
+  }
+  
+  .loginbutton:hover::after {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+.renk {
+    color: #409ACD;
+}
+
+.input1 {
+    height: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .anaekran {
+        width: 100%;
+        height: 100%;
+        position: sticky;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .sol {
+        height: 100%;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        font-size: 20px;
+    }
+}
